@@ -16,7 +16,7 @@ pipeline {
       agent any
       steps {
         sh 'docker build -t Eritzsm/spring-petclinic:latest .'
-      }
-    }
+    }
+   }
   }
 }
